@@ -1,0 +1,22 @@
+import appread
+import os
+EXTREME = 5
+HIGH = 4
+MEDIUM = 3
+NORMAL = 2
+SMALL = 1
+EXTREME_SMALL = 0
+
+ADMINSTATOR = {"name": "ADMINSTATOR", "LEVEL": HIGH}
+INTELLIGENTE = {"name": "INTELLIGENTE", "LEVEL": EXTREME}
+USER = {"name": "USER", "LEVEL": MEDIUM}
+RESTRICTED = {"name": "RESTRICTED", "LEVEL": NORMAL}
+SMALLU = {"name": "SMALLU", "LEVEL": SMALL}
+NONE = {"name": "NONE", "LEVEL": EXTREME_SMALL}
+
+PERMISSIONS = [ADMINSTATOR, INTELLIGENTE, USER, RESTRICTED, SMALLU, NONE]
+PERMISSION = PERMISSIONS[1]
+VIRTUAL = True if "Hyper" in appread.apps else False
+if VIRTUAL:
+    PERMISSION = PERMISSIONS[3]
+    os.system("msg * Warning: Running DataGarm on a Virtual Machine is not supported the permission is: Restricted. Counintue?")
