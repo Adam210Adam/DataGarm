@@ -20,3 +20,8 @@ VIRTUAL = True if "Hyper" in appread.apps else False
 if VIRTUAL:
     PERMISSION = PERMISSIONS[3]
     os.system("msg * Warning: Running DataGarm on a Virtual Machine is not supported the permission is: Restricted. Counintue?")
+OPF = []
+C = {"Name": "C:"}
+OPD = [C]
+D = "???"
+F = "???"
