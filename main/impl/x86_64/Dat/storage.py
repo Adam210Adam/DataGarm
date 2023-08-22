@@ -20,3 +20,12 @@ VIRTUAL = True if "Hyper" in appread.apps else False
 if VIRTUAL:
     PERMISSION = PERMISSIONS[3]
     os.system("msg * Warning: Running DataGarm on a Virtual Machine is not supported the permission is: Restricted. Counintue?")
+'''
+Operator files. If the user tries to modify or delete them PermissonERR() will execute in PERMISSON_FINDER.py
+'''
+OPF=[] 
+C = {"Name": "C:"} # A drive
+D = {"Name": "D:"} # A drive
+OPDRS=[C]
+DRS = [D]
+F = []
