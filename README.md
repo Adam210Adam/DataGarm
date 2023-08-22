@@ -13,4 +13,4 @@ This is operating system that runs on a linux computer. Run Linux-packg-9.0.0-OS
   2. A window will Appear Saying Are you sure?
   3. If you are sure click YES
       1. The operating system should start
-  5. If you aren't sure clidk NO ***This will return you to the bootloader**
+  5. If you aren't sure clidk NO ***This will return you to the bootloader***
