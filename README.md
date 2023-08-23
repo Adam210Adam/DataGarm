@@ -18,13 +18,16 @@ This is operating system that runs on a linux computer. Run Linux-packg-9.0.0-OS
       1. Create a file by clicking a
       2. Name it perm.msn
       3. Extinsion it .masn
-      4. Type in it this'''
- from ..Dat.storage import *
+      4. Type in it this
 
-PERMISSON = PERMISSIONS[0]
- '''py
-      7. The computer will restart
-  5. If you aren't sure click NO ***This will return you to the bootloader***
+      ```python
+      from ..Dat.storage import *
+
+      PERMISSON = PERMISSIONS[0]
+      ```
+
+      5. The computer will restart
+  4. If you aren't sure click NO ***This will return you to the bootloader***
 
 
 ***How To Use***:
