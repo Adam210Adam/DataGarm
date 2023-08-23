@@ -19,5 +19,9 @@ This is operating system that runs on a linux computer. Run Linux-packg-9.0.0-OS
 
 
 ***How To Use***:
-  1. If you want to Create a file
-    1. Click on the add file icon ![](file-add-line.png)
+  - How you want to Create a file
+    1. Click on the add file icon  ![](file-add-line.png)
+    ***A Window Will Appear***
+    2. Enter your File name
+    3. Enter your extinsion
+  2. 
