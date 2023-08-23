@@ -14,14 +14,24 @@ This is operating system that runs on a linux computer. Run Linux-packg-9.0.0-OS
   1. Click On LINUX_DG_1
   2. A window will Appear Saying Are you sure?
   3. If you are sure click YES
-      The operating system should start
+      The operating System WILL run in Restricted Mode
+      1. Create a file by clicking a
+      2. Name it perm.msn
+      3. Extinsion it .masn
+      4. Type in it this'''
+ from ..Dat.storage import *
+
+PERMISSON = PERMISSIONS[0]
+ '''py
+      7. The computer will restart
   5. If you aren't sure click NO ***This will return you to the bootloader***
 
 
 ***How To Use***:
-  - How you want to Create a file
-    1. Click on the add file icon  ![](file-add-line.png)
+  - How to Create a file:
+    1. Click on the add file icon  ![](file-add-line.png)<br>
     ***A Window Will Appear***
-    2. Enter your File name
-    3. Enter your extinsion
-  2. 
+    3. Enter your File name
+    4. Enter your extinsion
+  - How to shut down
+    Click U and the operating system will shut down
