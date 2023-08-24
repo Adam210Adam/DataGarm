@@ -15,7 +15,7 @@ This is operating system that runs on a linux computer. Run Linux-packg-9.0.0-OS
   2. A window will Appear Saying Are you sure?
   3. If you are sure click YES
       The operating System WILL run in Restricted Mode
-      1. Create a file by clicking a
+      1. Create a file by clicking this icon ![](file-add-line.png)
       2. Name it perm.msn
       3. Extinsion it .masn
       4. Type in it this
