@@ -1,0 +1,31 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+body {
+    background-image: linear-gradient(to right, pink, red);
+}
+.img-int {
+    display: inline;
+}
+.marg {
+    display: inline;
+    font-size: 50px;
+    margin-right: 500px;
+}
+nav {
+    border: 5px solid gray;
+}
+.inner-nav {
+    margin: 20px;
+}
+
+.button-nav-1 {
+    padding: 20px 50px;
+    background: transparent;
+    border: 5px solid black;
+    border-radius: 6px;
+}
+.button-nav-1:hover {
+    transform: scale(0.9);
+}
