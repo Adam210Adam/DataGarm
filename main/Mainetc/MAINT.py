@@ -2,6 +2,9 @@ import tkinter
 import random
 import os
 from PIL import ImageTk, Image
+from pathlib import Path
+
+
 BOOTL = tkinter.Tk()
 BOOTL.state("zoomed")
 BOOTL.configure(bg="#093689")
@@ -9,6 +12,26 @@ def destroy(root):
     root.destroy()
     call(1)
 class innerOperator:
+    def innerAddFile():
+        filename = ""
+        def printfilename(n: tkinter.Text, e: tkinter.Text, f):
+            nonlocal filename
+            names = n.get("1.0","end-1c")
+            extinsions = e.get("1.0", tkinter.END)
+            filename += f"{names}.{extinsions}"
+            my_file = Path(f"./{filename}")
+            if my_file.exists():
+                os.system("msg * file already exists")
+            print(filename)
+            open(filename.replace("\n", ""), "w")
+            filename = ""
+        addf = tkinter.Tk()
+        name = tkinter.Text(addf)
+        name.place(x=10, y=10)
+        extinsion = tkinter.Text(addf)
+        extinsion.place(x=10, y=50)
+        butt = tkinter.Button(addf, text="Create", command=lambda: printfilename(name, extinsion, addf)).place(x=10, y=150)
+
     def innerCall(rootsan: tkinter.Tk):
         rootsan.destroy()
         root = tkinter.Tk()
@@ -16,7 +39,7 @@ class innerOperator:
         img = tkinter.PhotoImage(file=r"BGdefault.png")
         img2 = tkinter.PhotoImage(file=r"file-add-line.png")
         panel = tkinter.Label(root, image = img).pack(fill="both", expand="yes")
-        addfile = tkinter.Button(image=img2).place(x=10, y=10)
+        addfile = tkinter.Button(image=img2, command=innerOperator.innerAddFile).place(x=10, y=10)
         root.mainloop()
 def call(page):
     if page == 1:
