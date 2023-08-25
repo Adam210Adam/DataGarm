@@ -15,8 +15,8 @@ class innerOperator:
         root.state("zoomed")
         img = tkinter.PhotoImage(file=r"BGdefault.png")
         img2 = tkinter.PhotoImage(file=r"file-add-line.png")
-        addfile = tkinter.Button(image=img2).pack()
         panel = tkinter.Label(root, image = img).pack(fill="both", expand="yes")
+        addfile = tkinter.Button(image=img2).place(x=10, y=10)
         root.mainloop()
 def call(page):
     if page == 1:
