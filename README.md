@@ -1,3 +1,7 @@
+> Note: Please don't ask when the next release is coming out as there is One Programmer working on the operating system. To Learn more go to the []()
+
+
+
 # DataGarm
 This is operating system that runs on a linux computer. Run Linux-packg-9.0.0-OS.exe to begin Installation
 
