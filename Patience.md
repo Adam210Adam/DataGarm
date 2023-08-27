@@ -2,7 +2,9 @@
 
 Yes we are not a team, In fact not "we" I supposedlly I am the only worker @Adam210Adam 
 Perhaps it is really hard to create a operating system in "Python" to show you the code
-here is the code: PYTHON```
+here is the code:
+
+
     import tkinter
     import random
     import time
@@ -126,5 +128,4 @@ here is the code: PYTHON```
     l = tkinter.Button(text="LINUX_DG_5", bg="#093689", fg="white", font=("Arial", 50), command=lambda: os.startfile("error.vbs")).place(x=10, y=650)
     tkinter.Label(text='''Intelligente
     DataGarm''', font=("Arial", 50), bg="#093689", fg="white").place(x=1200, y=10)
-BOOTL.mainloop()
-```
+    BOOTL.mainloop()
