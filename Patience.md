@@ -2,7 +2,8 @@
 
 Yes we are not a team, In fact not "we" I supposedlly I am the only worker @Adam210Adam 
 Perhaps it is really hard to create a operating system in "Python" to show you the code
-here is the code: python```
+here is the code: 
+    ```
     import tkinter
     import random
     import time
