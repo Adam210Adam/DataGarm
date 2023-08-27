@@ -1,4 +1,4 @@
-> Note: Please don't ask when the next release is coming out as there is One Programmer working on the operating system. To Learn more go to the [Patience License](Patience.md)
+> Note: Please don't ask when the next release is coming out as there is One Programmer working on the operating system. To Learn more go to the [Patience > License](Patience.md)
 
 
 
